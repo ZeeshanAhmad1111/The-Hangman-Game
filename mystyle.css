@@ -75,3 +75,7 @@ body {
 .word_hidden {
     display: inline-flex;
 }
+
+.hint_hidden {
+    width: 95%;
+}

@@ -64,8 +64,8 @@ init("start");
 
 const shownotif = function(msg) {
     notification.classList.remove("hidden");
-    corword.textContent = `You ${msg}`;
-    result.textContent = select_word;
+    corword.textContent = select_words;
+    result.textContent = `You ${msg}`;
 };
 
 const decreaselife = function() {
