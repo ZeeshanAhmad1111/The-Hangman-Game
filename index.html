@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        THE HANGMAN GAME
+    </title>
+    <script defer src="mylogic.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>THE HANGMAN GAME</h1>
+        <h3>Press the alphabets to guess the word</h3>
+        <div class="alphabet"></div>
+        <p>Get a hint if you need the help</p>
+        <div class="hint_hidden">
+            <p>Hint: </p>
+            <p class="hint_message">Sample Hint</p>
+        </div>
+        <div class="word_hidden"></div>
+        <p>Remaining Lifes: <span class="rem_life">8</span></p>
+        <div class="footer">
+            <button class="hint_btn">Hint</button>
+            <button class="reset_btn">Reset</button>
+        </div>
+    </div>
+    <div class="notif">
+        <h2>Game Over!</h2>
+        <h3 class="res">You Won</h3>
+        <h4>Correct Word:<span class="cor_word"></span></h4>
+        <button class="play_again">Play Again</button>
+    </div>
+
+</body>
+
+</html>
